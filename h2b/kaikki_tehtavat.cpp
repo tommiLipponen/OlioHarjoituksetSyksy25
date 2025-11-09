@@ -52,14 +52,14 @@ int main() {
     
     vector<Tuote> tuotteet;
     
-    // Tehtävä 1: push_back
+    // Tehtava 1: push_back
     cout << "\n1. Lisataan tuotteita push_back:lla" << endl;
     Tuote t1("Kahvi", 3.50);
     Tuote t2("Tee", 2.75);
     tuotteet.push_back(t1);
     tuotteet.push_back(t2);
     
-    // Tehtävä 2: emplace_back
+    // Tehtava 2: emplace_back
     cout << "2. Lisataan tuotteita emplace_back:lla" << endl;
     tuotteet.emplace_back("Kaakao", 4.20);
     tuotteet.emplace_back("Suklaa", 5.90);
@@ -72,7 +72,7 @@ int main() {
         tuotteet[i].tulosta();
     }
     
-    // Tehtävä 4: Etsi kallein ja halvin
+    // Tehtava 4: Etsi kallein ja halvin
     cout << "\n=== ANALYYSI ===" << endl;
     Tuote kallein = etsiKallein(tuotteet);
     cout << "Kallein tuote: ";

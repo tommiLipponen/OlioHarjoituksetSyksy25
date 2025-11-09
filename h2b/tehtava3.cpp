@@ -11,7 +11,7 @@ int main() {
     // Luo vector-lista Tuote-olioille
     vector<Tuote> tuotteet;
     
-    // Pyyd‰ k‰ytt‰j‰lt‰ viisi tuotetta
+    // Pyyda kayttajalta viisi tuotetta
     cout << "\nSyota 5 tuotteen tiedot:" << endl;
     
     for (int i = 0; i < 5; i++) {
@@ -20,13 +20,13 @@ int main() {
         
         cout << "\nTuote " << (i + 1) << ":" << endl;
         cout << "Anna tuotteen nimi: ";
-        cin.ignore(); // Tyhjenn‰ puskuri ennen getline
+        cin.ignore(); // Tyhjenna puskuri ennen getline
         getline(cin, nimi);
         
         cout << "Anna tuotteen hinta: ";
         cin >> hinta;
         
-        // Lis‰‰ tuote vektoriin emplace_back:lla
+        // Lisaa tuote vektoriin emplace_back:lla
         tuotteet.emplace_back(nimi, hinta);
     }
     

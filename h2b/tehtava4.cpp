@@ -7,12 +7,12 @@ using namespace std;
 // Funktio, joka etsii ja palauttaa kalleimman tuotteen
 Tuote etsiKallein(const vector<Tuote>& tuotteet) {
     if (tuotteet.empty()) {
-        return Tuote(); // Palauta tyhjä tuote jos lista on tyhjä
+        return Tuote(); // Palauta tyhja tuote jos lista on tyhja
     }
     
     Tuote kallein = tuotteet[0];
     
-    // Käy läpi kaikki tuotteet ja etsi kallein
+    // Kay lapi kaikki tuotteet ja etsi kallein
     for (size_t i = 1; i < tuotteet.size(); i++) {
         if (tuotteet[i].getHinta() > kallein.getHinta()) {
             kallein = tuotteet[i];
@@ -25,7 +25,7 @@ Tuote etsiKallein(const vector<Tuote>& tuotteet) {
 int main() {
     cout << "=== Tehtava 4: Kalleimman tuotteen etsiminen ===" << endl;
     
-    // Luo vector-lista ja lisää tuotteita
+    // Luo vector-lista ja lisaa tuotteita
     vector<Tuote> tuotteet;
     
     tuotteet.emplace_back("Kahvi", 3.50);

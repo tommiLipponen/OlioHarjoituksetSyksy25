@@ -15,7 +15,7 @@ int main() {
     Tuote tuote2("Tee", 2.75);
     Tuote tuote3("Kaakao", 4.20);
     
-    // Lis‰‰ tuotteet listaan push_back:lla
+    // Lisaa tuotteet listaan push_back:lla
     tuotteet.push_back(tuote1);
     tuotteet.push_back(tuote2);
     tuotteet.push_back(tuote3);

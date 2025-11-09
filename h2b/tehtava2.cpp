@@ -10,7 +10,7 @@ int main() {
     // Luo vector-lista Tuote-olioille
     vector<Tuote> tuotteet;
     
-    // Lis‰‰ tuotteet suoraan vektoriin emplace_back:lla
+    // Lisaa tuotteet suoraan vektoriin emplace_back:lla
     // emplace_back luo olion suoraan vektoriin ilman kopiointia
     tuotteet.emplace_back("Kahvi", 3.50);
     tuotteet.emplace_back("Tee", 2.75);
