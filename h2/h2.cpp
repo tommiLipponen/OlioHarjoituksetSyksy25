@@ -6,11 +6,11 @@ using namespace std;
 /*
 int main() {
     Henkilo henkilo1;
-    henkilo1.nimi = "Matti Meikäläinen";  // Suora muuttujaan pääsy - huono tapa!
+    henkilo1.nimi = "Matti Meikalainen";  // Suora muuttujaan pääsy - huono tapa!
     henkilo1.ika = 25;
     
     cout << "Nimi: " << henkilo1.nimi << endl;
-    cout << "Ikä: " << henkilo1.ika << endl;
+    cout << "Ika: " << henkilo1.ika << endl;
     
     return 0;
 }
@@ -43,24 +43,24 @@ void Henkilo::setIka(int uusiIka) {
 // Tehtävä 2: Tulostusmetodin toteutus
 void Henkilo::tulostaTiedot() const {
     cout << "Nimi: " << nimi << endl;
-    cout << "Ikä: " << ika << endl;
+    cout << "Ika: " << ika << endl;
 }
 
 int main()
 {
-    cout << "=== Tehtävä 2: Käytetään settereita ===" << endl;
-    Henkilo henkilo1("", 0);  // Luodaan tyhjällä konstruktorilla
-    henkilo1.setNimi("Matti Meikäläinen");
+    cout << "=== Tehtava 2: Kaytetaan settereita ===" << endl;
+    Henkilo henkilo1("", 0);  // Luodaan tyhjalla konstruktorilla
+    henkilo1.setNimi("Matti Meikalainen");
     henkilo1.setIka(25);
     henkilo1.tulostaTiedot();
     
-    cout << endl << "=== Tehtävä 3: Käytetään konstruktoria ===" << endl;
+    cout << endl << "=== Tehtava 3: Kaytetaan konstruktoria ===" << endl;
     Henkilo henkilo2("Maija Virtanen", 30);
     henkilo2.tulostaTiedot();
     
-    cout << endl << "=== Käytetään gettereita ===" << endl;
-    cout << "Henkilön nimi: " << henkilo2.getNimi() << endl;
-    cout << "Henkilön ikä: " << henkilo2.getIka() << endl;
+    cout << endl << "=== Kaytetaan gettereita ===" << endl;
+    cout << "Henkilon nimi: " << henkilo2.getNimi() << endl;
+    cout << "Henkilon ika: " << henkilo2.getIka() << endl;
 
     return 0;
 }
