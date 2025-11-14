@@ -22,3 +22,5 @@ void Car::setYearModel(int y)
 {
     yearModel = y;
 }
+
+//kommentteja hiottu

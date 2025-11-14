@@ -19,3 +19,5 @@ void Rectangle::setHeight(double h)
 {
     height = h;
 }
+
+//kommentteja hiottu

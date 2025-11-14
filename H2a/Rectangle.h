@@ -12,3 +12,5 @@ public:
     void setWidth(double w);
     void setHeight(double h);
 };
+
+//kommentteja hiottu

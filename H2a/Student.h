@@ -20,3 +20,5 @@ public:
     int getStudentNumber();
     double getAverage();
 };
+
+//kommentteja hiottu

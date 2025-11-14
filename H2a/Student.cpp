@@ -31,3 +31,5 @@ double Student::getAverage()
 {
     return average;
 }
+
+//kommentteja hiottu

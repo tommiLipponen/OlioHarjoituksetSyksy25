@@ -15,3 +15,5 @@ public:
     void setModel(std::string m);
     void setYearModel(int y);
 };
+
+//kommentteja hiottu
