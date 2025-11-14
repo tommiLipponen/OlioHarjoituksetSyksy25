@@ -1,4 +1,4 @@
-﻿# CMakeList.txt : CMake-projekti H2a:lle, sisällytä lähdekoodi ja määritä
+﻿# CMakeList.txt : CMake-projekti H2a:lle, sisällytä lähdekoodi ja määritäs
 # projektikohtainen logiikka täällä.
 #
 cmake_minimum_required (VERSION 3.10)
