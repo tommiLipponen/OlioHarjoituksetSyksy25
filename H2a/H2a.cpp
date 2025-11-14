@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 	cout << "=== Car Demo ===" << endl;
-	// Luo Car-olio pinomuistiin
+	// Luo Car-olio pinomuistihin
 	Car myCar;
 	myCar.setBrand("Toyota");
 	myCar.setModel("Corolla");
